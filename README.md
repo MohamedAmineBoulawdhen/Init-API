@@ -4,22 +4,19 @@ This is a simple React app that displays a list of users using the jsonplacehold
 
 ## Instructions
 
-1. Create a new project using create-react-app:
-
-npx create-react-app user-list-app
+1. Create a new project using create-react-app exp: `npx create-react-app user-list-app`
 
 2. Create a new file called `UserList.js` in the `src` folder.
 
-3. Install axios:
-
-npm install axios
+3. Install axios: `npm install axios`
 
 4. In `UserList.js`, import axios and useState:
 ```javascript
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+```
 
-5.Use axios to get data from the jsonplaceholder API
+5.Use axios inside useEffect to get data from the jsonplaceholder API.
 
 6.Use useState to save the data into a listOfUsers state.
 
